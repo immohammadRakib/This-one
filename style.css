@@ -81,11 +81,26 @@
     width: 300px;
 }
 .card .card-photo button{
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    outline: none;
     width: 80px;
     height: 30px;
 }
 .card .card-photo p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
     width: 200px;
+}
+.card .card-gellary .card-photo .icon{
+    display: ;
+    font-size: 12px;
+    color: darkgray;
+}
+.card .card-gellary .card-photo .icon .icon-message{
+    padding-left: 80px;
 }
 .footer{
     margin-top: 150px;
@@ -100,11 +115,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-.footer hr{
+.footer hr{ 
+    text-align: center;
     margin-top: 70px;
     color: darkgray;
     width: 700px;
-    text-align: center;
+   
 }
 .footer .about{
     margin-top: 40px;
@@ -115,4 +131,12 @@
     font-size: 12px;
     display: flex;
     justify-content: space-evenly;
+}
+.footer .icon{
+    text-align: center;
+    margin-top: 80px;
+}
+.footer .icon i{
+    padding-left: 10px;
+    padding-right: 10px;
 }
